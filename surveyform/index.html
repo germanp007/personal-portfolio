@@ -1,0 +1,91 @@
+<header>
+    <link rel="stylesheet" href="style.css">
+</header>
+<body>
+    <div id="tournament">
+  <h1 id="title">---TOURNAMENT---</h1>
+  
+  <p id="description">Great Martial Arts tournament, "enter if you think you can win"</p>
+      </div>
+  <div class="container">
+  <form id="survey-form"> 
+    
+    <div id= "form-text">
+      
+      <label id="name-label">Name:</label><input id="name" type="text" required placeholder="Enter Name here">
+  </div>
+    <div>
+    <label id="email-label">Email:</label>
+      <input id="email" 
+             type="email" 
+             required placeholder="Email"/>
+  
+    </div>
+  <div>
+    
+    <label id="number-label">Age:</label>
+    <input id="number" 
+           min="10" 
+           max="99"  
+           type="number" 
+           required placeholder="Enter your age"/>
+     
+    </div>
+     <div>
+       <select id="dropdown">
+         <option disabled selected value>Select your fighting level</option>
+        <option value="value1">Fight like a puppy</option>
+        <option value="value2">Novice</option>
+         <option value="value2">Medium</option>
+         <option value="value2">Expert</option>
+         <option value="value2">Jedi</option>
+         <option value="value2">God</option>
+                        
+         
+     </select>
+       
+         <h3>Choose your fighting style</h3>
+         <div class="radio-buttom">
+       <label><input name="fighting-style" type="radio" value="kung-fu" class="input-radio"checked/>Kung-fu</label><br>
+           
+       <label><input name="fighting-style" type= "radio" value= "karate" class="input-radio"/>Karate</label><br>
+           
+         <label><input name="fighting-style" type="radio" value= "muay-tay" class="input-radio"/>Muay Thai</label><br>
+           
+  <label><input name="fighting-style" type="radio" value= "jiu-jitsu" class="input-radio"/>Jiu-jitsu</label>
+    </div>
+    
+      <h3>What weapon are you an expert with?</h3>
+       <div class="checkbox">
+       <label><input type="checkbox" value="nunchaku">Nunchaku <label><br>
+       <label><input type="checkbox" value="sai"> Sai <label><br>
+       <label><input type="checkbox" value="Jo">Jo <label><br>
+       <label><input type="checkbox" value="Bo"> Bo <label><br>
+       <label><input type="checkbox" value="Bo"> Bokken <label><br>
+    </div>
+       
+      </div>
+    
+    <div>
+      
+      <h3>Add any comment or suggestion</h3>
+      
+      <textarea  id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."></textarea> 
+      
+      <div>
+      <button type="submit" id="submit" class="submit-button">     Submit</button>
+      
+      </div>
+         
+         
+    </div>
+  
+  
+  </form>
+    
+    
+    </div>
+    
