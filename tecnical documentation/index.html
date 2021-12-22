@@ -1,0 +1,293 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  </head>
+      <body>
+     
+       <nav id="navbar">
+          <header class="header-content" id="navbar_title">Python Documentation</header>
+          
+             <ul id="navbar-elements">
+                    <li><a class="nav-link"href="#Introduction">Introduction</a></li>
+                    <li><a class="nav-link"href="#Design_philosophy">Design philosophy</a></li>
+                    <li><a class="nav-link"href="#Syntax_and_Semantics">Syntax and semantics</a></li>
+                     <li><a class="nav-link"href="#Statements_and_Control_Flow">Statements and                                control flow</a></li>
+                     <li><a class="nav-link"href="#Identation">Identation</a></li>
+                     <li><a class="nav-link"href="#Keywords">Keywords</a></li>
+                     <li><a class="nav-link"href="#Strings">Strings</a></li>
+                 <ul>
+           </nav>
+         
+          
+        <main id="main-doc">
+     
+     
+     <section class="main-section" id="Introduction">
+      
+       
+       <header>Introduction<img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/250px-Python_logo_and_wordmark.svg.png" alt="python logo"></header>
+       
+       
+         <p>Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
+  
+         <p>Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.</p>
+  
+         <p>Guido van Rossum began working on Python in the late 1980s, as a successor to the ABC programming language, and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features, such as list comprehensions and a garbage collection system using reference counting. Python 3.0 was released in 2008 and was a major revision of the language that is not completely backward-compatible. Python 2 was discontinued with version 2.7.18 in 2020.</p>
+  
+  <p>Python consistently ranks as one of the most popular programming languages.</p>
+       
+     </section>
+       
+      <section class="main-section" id="Design_philosophy">
+       
+       <header>Design philosophy</header>
+        
+         <p>Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of its features support functional programming and aspect-oriented programming (including by metaprogramming and metaobjects (magic methods)). Many other paradigms are supported via extensions, including design by contract and logic programming.</p>
+  
+  
+        <p>Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management. It also features dynamic name resolution (late binding), which binds method and variable names during program execution.</p>
+  
+        <p>Python's design offers some support for functional programming in the Lisp tradition. It has filter,mapandreduce functions; list comprehensions, dictionaries, sets, and generator expressions.[63] The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML.</p>
+  
+        <p>The language's core philosophy is summarized in the document The Zen of Python (PEP 20), which includes aphorisms such as:</p>
+        
+        <ul id="python-features">
+          
+          <li>Beautiful is better than ugly.</li>
+          <li>Explicit is better than implicit.</li>
+          <li>Simple is better than complex.</li>
+          <li>Complex is better than complicated.</li>
+          <li>Readability counts.</li>
+          
+        </ul>
+        
+       <p>Rather than having all of its functionality built into its core, Python was designed to be highly extensible (with modules). This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach.</p>
+        
+        <p>Python strives for a simpler, less-cluttered syntax and grammar while giving developers a choice in their coding methodology. In contrast to Perl's "there is more than one way to do it" motto, Python embraces a "there should be one— and preferably only one —obvious way to do it" design philosophy.[65] Alex Martelli, a Fellow at the Python Software Foundation and Python book author, writes that "To describe something as 'clever' is not considered a compliment in the Python culture."</P>
+  
+        <p>Python's developers strive to avoid premature optimization, and reject patches to non-critical parts of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity.[67] When speed is important, a Python programmer can move time-critical functions to extension modules written in languages such as C, or use PyPy, a just-in-time compiler. Cython is also available, which translates a Python script into C and makes direct C-level API calls into the Python interpreter.</p>
+  
+        <p>Python's developers aim to keep the language fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python[68]—and in occasionally playful approaches to tutorials and reference materials, such as examples that refer to spam and eggs (a reference to a Monty Python sketch) instead of the standard foo and bar.</p>
+  
+        <p>A common neologism in the Python community is pythonic, which can have a wide range of meanings related to program style. To say that code is pythonic is to say that it uses Python idioms well, that it is natural or shows fluency in the language, that it conforms with Python's minimalist philosophy and emphasis on readability. In contrast, code that is difficult to understand or reads like a rough transcription from another programming language is called unpythonic.</p>
+  
+  <p>Users and admirers of Python, especially those considered knowledgeable or experienced, are often referred to as Pythonistas.</p>
+       
+       </section>
+          
+     <section class="main-section" id="Syntax_and_Semantics">
+  
+       <header>Syntax and Semantics</header>
+       
+         <p>Python is meant to be an easily readable language. Its formatting is visually uncluttered, and it often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but are rarely, if ever, used. It has fewer syntactic exceptions and special cases than C or Pascal.</p>
+       
+          <p>Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block. Thus, the program's visual structure accurately represents the program's semantic structure. This feature is sometimes termed the off-side rule, which some other languages share, but in most languages indentation does not have any semantic meaning. The recommended indent size is four spaces.</p>
+       
+       
+       
+       </section>
+               
+     <section class="main-section" id="Statements_and_Control_Flow">   
+       
+       <header>Statements and Control Flow</header>
+       
+         <p>Python's statements include (among others):</p>
+       
+       <ul id="python-features2">
+          
+          <li>The assignment statement, using a single equals sign <code>=</code>.</li><br>
+          <li>The <code>if</code> statement, which conditionally executes a block of code, along              with else and elif (a contraction of else-if).</li><br>
+          <li>The <code>for</code> statement, which iterates over an iterable object, capturing             each element to a local variable for use by the attached block.</li><br>
+          <li>The <code>while</code> statement, which executes a block of code as long as its               condition is true.</li><br>
+          <li>The <code>try</code> statement, which allows exceptions raised in its attached                 code block to be caught and handled by except clauses; it also ensures                         that clean-up code in a finally block will always be run regardless of how the                 block exits.</li><br>
+          <li>The <code>raise</code> statement, used to raise a specified exception or re-raise             a caught exception.</li><br>
+          <li>The <code>class</code> statement, which executes a block of code and attaches its             local namespace to a class, for use in object-oriented programming.</li><br>
+          <li>The <code>def</code> statement, which defines a function or method.</li><br>
+          <li>The <code>with</code> statement, which encloses a code block within a context                 manager (for example, acquiring a lock before the block of code is run and                     releasing the lock afterwards, or opening a file and then closing it), allowing               resource-acquisition-is-initialization (RAII)-like behavior and replaces a common             try/finally idiom.</li><br>
+          <li>The <code>break</code> statement, exits from a loop.</li><br>
+          <li>The <code>continue</code> statement, skips this iteration and continues with the               next item.</li><br>
+          <li>The <code>del</code> statement, removes a variable, which means the reference from             the name to the value is deleted and trying to use that variable will cause an                 error. A deleted variable can be reassigned.</li><br>
+          <li>The <code>pass</code> statement, which serves as a NOP. It is syntactically needed             to create an empty code block.</li><br>
+          <li>The <code>assert</code> statement, used during debugging to check for conditions               that should apply.</li><br>
+          <li>The <code>yield</code>statement, which returns a value from a generator function               and yield is also an operator. This form is used to implement coroutines.</li><br>
+          <li>The <code>return</code> statement, used to return a value from a function.</li><br>
+          <li>The <code>import</code> statement, which is used to import modules whose functions             or variables can be used in the current program.</li><br>
+        </ul>
+          
+            
+      
+       </section>
+     
+     <section class="main-section" id="Identation">   
+       
+       
+       <header>Identation</header>
+       
+       <p>Python uses whitespace to delimit control flow blocks (following the off-side rule). Python borrows this feature from its predecessor ABC: instead of punctuation or keywords, it uses indentation to indicate the run of a block.</P>
+  
+       <p>In so-called "free-format" languages—that use the block structure derived from ALGOL—blocks of code are set off with braces ({ }) or keywords. In most coding conventions for these languages, programmers conventionally indent the code within a block, to visually set it apart from the surrounding code.</p>
+  
+       <p>A recursive function named foo, which is passed a single parameter, x, and if the parameter is 0 will call a different function named bar and otherwise will call baz, passing x, and also call itself recursively, passing x-1 as the parameter, could be implemented like this in Python:</p><br>
+           <div>    
+            <pre><code class="python-code">
+                      <font color="green">def</font> <font color="blue">foo</font>(x):
+                          <font color="green">if</font> x == 0:
+                              bar()
+                          <font color="green">else</font>:
+                              baz(x)
+                          foo(x - 1)</code></pre>
+           </div>
+         <p>and could be written like this in C with K&R indent style:</p>
+         
+         <div>
+           <pre><code class="python-code">
+                     <font color="red">void</font> <font color="blue">foo</font>(int x)
+                      {
+                        <font color="green">if</font> (x == 0) {
+                            bar();
+                        } <font color="green">else</font> {
+                          baz(x);
+                         foo(x - 1);
+                          }
+                       }</code></pre>
+           
+           </div>
+       
+         </section>
+     
+         <section class="main-section" id="Keywords">   
+       
+       
+       <header>Keywords</header>
+           <div id="words">
+             
+             <ul>
+               
+               <li>and</li>
+               <li>as</li>
+               <li>assert</li>
+               <li>async</li>
+               <li>await</li>
+               <li>break</li>
+               <li>class</li>
+               <li>continue</li>
+               <li>def</li>
+               <li>del</li>
+               <li>elif</li>
+               <li>else</li>
+               <li>except</li>
+               <li>False</li>
+               <li>finally</li>
+               <li>for</li>
+               <li>from</li>
+               <li>global</li>
+               <li>if</li>
+               <li>import</li>
+               <li>in</li>
+               <li>is</li>
+               <li>lambda</li>
+               <li>None</li>
+               <li>nonlocal</li>
+               <li>not</li>
+               <li>or</li>
+               <li>pass</li>
+               <li>raise</li>
+               <li>return</li>
+               <li>True</li>
+               <li>try</li>
+               <li>while</li>
+               <li>with</li>
+               <li>yield</li>
+               
+             </ul>
+             
+             
+           </div>
+          </section>
+        
+        
+         <section class="main-section" id="Strings">   
+       
+       
+       <header>Strings</header>
+        
+           <p>Python has various kinds of string literals.</p>
+           
+           <h4>Normal string literals</h4>
+           
+          <p>Either single or double quotes can be used to quote strings. Unlike in Unix shell languages, Perl or Perl-influenced languages such as Ruby or Groovy, single quotes and double quotes function identically, i.e. there is no string interpolation of $foo expressions. However, interpolation can be done in various ways: with "f-strings", using the format method or the old % string-format operator.</p><br>
+           
+           <p>For instance, the Perl statement:</p>
+           
+        <div>  
+           <code class="python-code"><font color="green">print</font> <font color="red">"I just printed $num pages to the printer $printer\n"</font></code>
+        </div>
+             
+             <p>is equivalent to any of these Python statements:</p>
+             
+        <div>
+   <pre><code class="python-code"><span class="verde">print</span>(<span class="rojo">f"I just printed</span> {num} <span class="rojo">pages to the printer {printer}")
+  
+               <span class="verde">print</span>(<span class="rojo">"I just printed</span> {} <span class="azul">pages to the printer {}".format(num, printer))</span>
+  <span class="verde">print</span>(<span class="rojo">"I just printed</span>{0}<span class="azul">pages to the printer {1}".format(num, printer))</span>
+  <span class="verde">print</span>(<span class="rojo">"I just printed</span>{num}<span class="azul">pages to the printer {printer}".format(num=num, printer=printer))</span>
+  
+  <span class="verde">print</span>(<span class="rojo">"I just printed</span>%s<span class="azul">pages to the printer %s" % (num, printer))
+  <span class="verde">print</span>(<span class="rojo">"I just printed</span> %(num)s<span class="azul">pages to the printer %(printer)s" % {"num":num, "printer": printer})</span></code></pre>
+        </div>
+        <div>
+        <h4>Multi-line string literals</h4>
+        
+        
+        <pre><code class="python-code"><span class="verde">print</span><span class="rojo">("""Dear {recipient},</span>
+  
+  <span class="rojo">I wish you to leave Sunnydale and never return.</span>
+  
+  <span class="rojo">Not Quite Love,</span>
+  <span class="rosa">{sender}</span>
+  <span class="rojo">"""</span>.format(sender=<span class="rojo">"Buffy the Vampire Slayer"</span>, <span class="rojo">recipient="Spike"))</span></code></pre>
+  
+        <h4>Raw strings</h4>
+        
+        <pre><code class="python-code"><span class="azul">>>></span> <span class="azul-claro"># A Windows path, even raw strings cannot end in a backslash</p>
+  <span class="azul">>>></span> <span class="rojo-oscuro">r"C:\Foo\Bar\Baz\"</span>
+    File "<span class="verde">&lt;stdin&gt;</span>", line 1
+      <span class="rojo-oscuro">r"C:\Foo\Bar\Baz\"</span>
+                       ^
+  <span class="rojo">SyntaxError:</span> EOL while scanning string literal
+  
+  <span class="azul">>>></span> dos_path = <span class="azul-claro">r"C:\Foo\Bar\Baz\ "</span> <span class="azul-claro"># avoids the error by adding</span>
+  <span class="azul">>>></span> dos_path.rstrip()              <span class="azul-claro"># and removing trailing space</span>
+  'C:\\Foo\\Bar\\Baz\\'
+  
+  <span class="azul">>>></span> quoted_dos_path = <span class="rojo-oscuro">r'"{}"'</span>.format(dos_path)
+  <span class="azul">>>></span> quoted_dos_path
+  '"C:\\Foo\\Bar\\Baz\\ "'
+  
+  <span class="azul">>>></span> <span class="azul-claro"># A regular expression matching a quoted string with possible backslash quoting</span>
+  <span class="azul">>>></span> re.match<span class="rojo-oscuro">(r'"(([^"\\]|\\.)*)"'</span>, quoted_dos_path).group(1).rstrip()
+  'C:\\Foo\\Bar\\Baz\\'
+  
+  <span class="azul">>>></span> code = <span class="rojo-oscuro">'foo(2, bar)'</span>
+  <span class="azul">>>></span> <span class="azul-claro"># Reverse the arguments in a two-arg function call</span>
+  <span class="azul">>>></span> re.sub(<span class="rojo-oscuro">r'\(([^,]*?),([^ ,]*?)\)', r'(\2, \1)'</span>, code)
+  'foo(2, bar)'
+  <span class="azul">>>></span> <span class="azul-claro"># Note that this won't work if either argument has parens or commas in it.</span></code></pre>
+           
+           </div>
+           
+           <p>For more information about this language visit <a id="wiki" href="https://es.wikipedia.org/wiki/Python">Python Wiki.</a></p>
+           
+   </main> 
+  
+      
+    
+   <body>
+  
+  
+  
+    
+   
+  
