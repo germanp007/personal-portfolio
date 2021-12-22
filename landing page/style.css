@@ -1,0 +1,160 @@
+body {
+  width: 100vw;
+  background-image: url(https://medicoplus.com/_next/image?url=https%3A%2F%2Fplustatic.com%2F2040%2Fconversions%2Ftipos-semillas-large.jpg&w=1024&q=75);
+}
+
+#header-img {
+  width: 350px;
+}
+/*BARRA DE NAVEGACION ORIZONTAL*/
+.nav-bar {
+  align-content: center;
+}
+ul {
+  list-style: none;
+  float: right;
+}
+
+li {
+  float: left;
+  font-family: sans-serif;
+}
+
+#aboutuss {
+  margin-right: 5px;
+  padding-left: 495px;
+}
+li a {
+  display: block;
+  padding: 30px 15px;
+  color: black;
+  text-decoration: none;
+  align-content: flex-end;
+}
+
+a:hover {
+  background-color: teal;
+  border-radius: 15px;
+  padding: 35px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  width: 100%;
+  background-color: #8bd797;
+  opacity: 0.8;
+}
+
+/*BARRA DE NAVEGACION ORIZONTAL*/
+
+.nav-link {
+  font-size: 20px;
+  margin-right: 0px;
+  text-align: end;
+}
+
+#form {
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+#email {
+  height: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 80px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+h3 {
+  margin-top: 50px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  font-size: 45px;
+}
+
+p {
+  font-size: 45px;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  margin-top: 35px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+}
+#join-us {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #348f50 0%,
+    #56b4d3 51%,
+    #348f50 100%
+  );
+}
+.btn-grad {
+  margin-top: 20px;
+  margin-left: 665px;
+  padding: 5px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#video {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: 3px;
+}
+
+#wellness {
+  background-image: url(https://clicare.io/themes/ap_healthy_child_theme//assets/img/bg-breadcrumb.jpg);
+  margin-top: 150px;
+
+  margin-left: 0px;
+  width: 100vw;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1450px) {
+  body {
+    flex-wrap: wrap;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+  ul {
+    margin: 10px;
+    padding-left: 800px;
+    list-style: none;
+    display: contents;
+  }
+}
