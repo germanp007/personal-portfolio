@@ -24,8 +24,8 @@ img {
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 100%;
+  width: 250px;
+  height: 100vh;
   border-right: solid;
   font-family: "Montserrat", sans-serif;
 }
@@ -41,7 +41,9 @@ img {
 
 #navbar-elements li {
   list-style: none;
-  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
   font-size: 20px;
   line-height: 25px;
   border-top: 1px solid;
@@ -53,6 +55,9 @@ img {
 a {
   text-decoration: none;
   color: black;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #python-features li {
@@ -87,30 +92,6 @@ code {
 #words ul {
   display: grid;
   grid-template-columns: 300px 300px 300px;
-}
-
-.verde {
-  color: green;
-}
-
-.rojo {
-  color: red;
-}
-
-.azul {
-  color: blue;
-}
-
-.rosa {
-  color: #e71990;
-}
-
-.rojo-oscuro {
-  color: #a21e04;
-}
-
-.azul-claro {
-  color: #408080;
 }
 
 #wiki {
