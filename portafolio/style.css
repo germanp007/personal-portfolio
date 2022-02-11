@@ -200,6 +200,7 @@ footer #profile-link {
   }
   .grid-proyects {
     grid-template-columns: 1fr;
+    height: auto;
   }
   .grid-proyects a {
     font-size: 20px;
