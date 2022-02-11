@@ -17,7 +17,6 @@ h1 {
 h3 {
   font-weight: 100;
   line-height: 100px;
-  
 }
 
 p {
@@ -68,6 +67,7 @@ header * {
   margin-left: 30px;
   margin-right: 50px;
   text-decoration: none;
+  z-index: 100;
 }
 
 #navbar a:hover {
@@ -107,6 +107,7 @@ i:hover {
 }
 .grid-proyects * {
   position: relative;
+  /* z-index: 50; */
 }
 .project-tile h3 {
   font-weight: 100;
@@ -118,7 +119,32 @@ i:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "one two three"
+    "four five six"
+    ". seven .";
   gap: 30px;
+}
+.grid-proyects .one {
+  grid-area: one;
+}
+.grid-proyects .two {
+  grid-area: two;
+}
+.grid-proyects .three {
+  grid-area: three;
+}
+.grid-proyects .four {
+  grid-area: four;
+}
+.grid-proyects .five {
+  grid-area: five;
+}
+.grid-proyects .six {
+  grid-area: six;
+}
+.grid-proyects .seven {
+  grid-area: seven;
 }
 
 .grid-proyects img {
