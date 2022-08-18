@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #35333f;
+}
+h1 {
+  margin-top: 35px;
+  font-size: 4em;
+  text-align: center;
+  color: whitesmoke;
+}
+div {
+  text-align: center;
+}
+div.swal-modal {
+  overflow: none;
+}
+div.swal-button-container {
+  height: 50px;
+  position: relative;
+}
+button.swal-button {
+  position: absolute;
+  height: 45px;
+  background-color: rgb(190, 80, 80);
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 35px;
+}
+.container {
+  overflow-wrap: break-word;
+  height: auto;
+}
+p {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  background-color: rgb(79, 93, 124);
+  width: 450px;
+  margin: 35px auto;
+  min-height: 75px;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+button {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: white;
+  height: 30px;
+  width: 30px;
+  background-color: crimson;
+  border-radius: 5px;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+#info {
+  height: 45px;
+  padding-top: 50px;
+}
+#texto {
+  border-radius: 15px;
+  border: none;
+  width: 300px;
+  height: 45px;
+  padding-left: 15px;
+  font-size: 30px;
+  background-color: white;
+}
+#boton {
+  margin-left: 15px;
+  background-color: #0b7519;
+  height: 45px;
+  width: 50px;
+  color: white;
+  font-weight: 700;
+  border-radius: 15px;
+  border: none;
+}
+#boton:hover {
+  cursor: pointer;
+  color: #35333f;
+  background-color: blanchedalmond;
+}
+
+@media (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-size: 0.5em;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    width: 250px;
+    height: auto;
+    font-size: 20px;
+  }
+  button {
+    height: 20px;
+    width: 20px;
+  }
+  #texto {
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+  }
+  #boton {
+    height: 35px;
+    width: 45px;
+  }
+
+  div.swal-modal {
+    overflow: none;
+    width: 280px;
+    height: 280px;
+  }
+  div.swal-title {
+    font-size: 15px;
+  }
+  div.swal-text {
+    font-size: 12px;
+  }
+
+  button.swal-button {
+    padding-top: 5px;
+    height: 35px;
+    font-size: 15px;
+  }
+  div.swal-footer {
+    height: 50px;
+    margin: 0;
+  }
+}
