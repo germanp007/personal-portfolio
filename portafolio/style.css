@@ -90,7 +90,7 @@ i:hover {
 
 .projects {
   background-image: url(https://fondosmil.com/fondo/70282.jpg);
-  height: 150vh;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
