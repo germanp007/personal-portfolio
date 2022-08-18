@@ -102,7 +102,7 @@ i:hover {
   background: black;
   position: absolute;
   width: 100vw;
-  min-height: 75vh;
+  height: 100vh;
   opacity: 0.4;
 }
 .grid-proyects * {
@@ -222,4 +222,10 @@ footer #profile-link {
   #welcome-section p {
     font-size: 25px;
   }
+  .grid-proyects:before {
+ 
+  width: 100vw;
+  height: 75vh;
+ 
+}
 }
