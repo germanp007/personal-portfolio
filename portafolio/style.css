@@ -222,10 +222,7 @@ footer #profile-link {
   #welcome-section p {
     font-size: 25px;
   }
-  .grid-proyects:before {
- 
-  width: 100vw;
-  height: 75vh;
- 
-}
+  footer {
+    paddind-top: 100px;
+  }
 }
