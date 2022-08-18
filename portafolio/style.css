@@ -102,7 +102,7 @@ i:hover {
   background: black;
   position: absolute;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 75vh;
   opacity: 0.4;
 }
 .grid-proyects * {
