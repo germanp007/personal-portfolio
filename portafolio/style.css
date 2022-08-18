@@ -170,7 +170,7 @@ footer {
   font-weight: 100;
   background: #000;
   height: 50vh;
-  padding-top: 50px;
+  padding-top: 200px;
 }
 
 footer h3 {
@@ -222,7 +222,5 @@ footer #profile-link {
   #welcome-section p {
     font-size: 25px;
   }
-  footer {
-    paddind-top: 100px;
-  }
+
 }
